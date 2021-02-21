@@ -9,6 +9,14 @@
     </head>
     <body>
         <div class="container">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a>Home!</a></li>
+                    </ul>
+                </nav>
+            </header>
+
             @yield('body');
         </div>
         <script src="{{ asset('js/script.js') }}" defer></script>
